@@ -11,11 +11,4 @@ public class Leetcode704 {
         }
         return -1;
     }
-
-    public static void main(String[] args) {
-        Leetcode704 leetcode704 = new Leetcode704();
-        int[] nums = {-1,0,3,5,9,12};
-        int taeget = 9;
-        System.out.println(leetcode704.search(nums,taeget));
-    }
 }

@@ -1,13 +1,6 @@
 package chapter7;
 
 public class Leetcode148 {
-    private static class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    }
     public ListNode sortList(ListNode head) {
         return sortList(head,null);
     }

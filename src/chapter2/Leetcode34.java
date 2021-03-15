@@ -31,13 +31,4 @@ public class Leetcode34 {
 
             return targetRange;
         }
-
-    public static void main(String[] args) {
-        Leetcode34 leetcode34 = new Leetcode34();
-        int[] nums = {5,7,7,8,8,10};
-        int target = 8;
-        for (int i:leetcode34.searchRange(nums,target)){
-            System.out.println(i);
-        }
-    }
 }

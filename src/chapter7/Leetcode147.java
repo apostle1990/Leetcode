@@ -1,13 +1,6 @@
 package chapter7;
 
 public class Leetcode147 {
-    private static class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    }
     public ListNode insertionSortList(ListNode head) {
         if (head == null) return head;
         ListNode first =new ListNode(0);

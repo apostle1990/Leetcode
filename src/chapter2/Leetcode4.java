@@ -32,10 +32,4 @@ public class Leetcode4 {
             }
         }
     }
-
-    public static void main(String[] args) {
-        int[] nums1 = {1,2},nums2={3,4};
-        Double mid = findMedianSortedArrays(nums1,nums2);
-        System.out.println(mid);
-    }
 }

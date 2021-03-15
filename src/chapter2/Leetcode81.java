@@ -31,10 +31,4 @@ public class Leetcode81 {
         }
         return false;
     }
-
-    public static void main(String[] args) {
-        int[] nums = {1,3,1,1,1};
-        int target = 3;
-        System.out.println(search(nums,target));
-    }
 }

@@ -61,9 +61,4 @@ public class Leetcode436 {
         }
         return left;
     }
-
-    public static void main(String[] args) {
-        int[][] intervals = {{1,4},{2,3},{3,4}};
-        System.out.println(Arrays.toString(findRightInterval(intervals)));
-    }
 }

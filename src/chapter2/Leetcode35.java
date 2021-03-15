@@ -13,11 +13,4 @@ public class Leetcode35 {
         if (result<0)result=0;
         return result;
     }
-
-    public static void main(String[] args) {
-        int[] nums = {1,3};
-        int target = 2;
-        Leetcode35 leetcode35 = new Leetcode35();
-        System.out.println(leetcode35.searchInsert(nums,target));
-    }
 }

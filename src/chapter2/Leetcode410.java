@@ -32,10 +32,4 @@ public class Leetcode410 {
         }
         return cnt <= m;
     }
-
-    public static void main(String[] args) {
-        int[] nums = {7,2,5,10,8};
-        int m = 2;
-        System.out.println(splitArray(nums,m));
-    }
 }

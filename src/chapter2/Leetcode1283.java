@@ -28,10 +28,4 @@ public class Leetcode1283 {
         }
         return sum;
     }
-
-    public static void main(String[] args) {
-        int[] nums = {1,2,5,9};
-        int threshold = 6;
-        System.out.println(smallestDivisor(nums,threshold));
-    }
 }

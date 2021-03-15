@@ -16,10 +16,4 @@ public class Leetcode154 {
         }
         return nums[low];
     }
-
-    public static void main(String[] args) {
-        int[] nums={10,1,10,10,10};
-        int[] nums1={4,5,6,7,0,1,2};
-        System.out.println(findMin(nums));
-    }
 }

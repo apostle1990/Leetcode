@@ -3,13 +3,6 @@ package chapter7;
 //https://leetcode-cn.com/problems/reverse-linked-list/solution/shi-pin-jiang-jie-die-dai-he-di-gui-hen-hswxy/
 
 public class Leetcode206 {
-    private static class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    }
     public ListNode reverseList(ListNode head) {
         //iedai
         ListNode prev = null;
