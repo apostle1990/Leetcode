@@ -1,18 +1,17 @@
-import chapter7.MyLinkedList;
+import chapter7.LRUCache;
 
 public class Main {
     public static void main(String[] args) {
-        MyLinkedList linkedList = new MyLinkedList();
-        linkedList.addAtHead(4);
-        linkedList.get(1);
-        linkedList.addAtHead(1);
-        linkedList.addAtHead(5);
-        linkedList.deleteAtIndex(3);
-        linkedList.addAtHead(7);
-        linkedList.get(3);
-        linkedList.get(3);
-        linkedList.get(3);
-        linkedList.addAtHead(1);
-        linkedList.deleteAtIndex(4);
+        LRUCache lruCache = new LRUCache(2);
+        lruCache.put(1,1);
+        lruCache.put(2,2);
+        lruCache.get(1);
+        lruCache.put(3, 3);
+        lruCache.get(2);
+        lruCache.put(4, 4);
+        lruCache.get(1);
+        lruCache.get(3);
+        int i = lruCache.get(4);
+        System.out.println(i);
     }
 }
