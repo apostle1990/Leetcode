@@ -1,17 +1,12 @@
-import chapter7.LRUCache;
+import chapter8.MyStack;
 
 public class Main {
     public static void main(String[] args) {
-        LRUCache lruCache = new LRUCache(2);
-        lruCache.put(1,1);
-        lruCache.put(2,2);
-        lruCache.get(1);
-        lruCache.put(3, 3);
-        lruCache.get(2);
-        lruCache.put(4, 4);
-        lruCache.get(1);
-        lruCache.get(3);
-        int i = lruCache.get(4);
-        System.out.println(i);
+        MyStack myStack = new MyStack();
+        myStack.push(1);
+        myStack.push(2);
+        System.out.println(myStack.top());
+        System.out.println(myStack.pop());
+        myStack.empty();
     }
 }
