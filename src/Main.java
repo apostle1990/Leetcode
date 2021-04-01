@@ -1,12 +1,24 @@
-import chapter8.MyStack;
+import chapter8.Leetcode1306;
+import chapter9.Leetcode215;
+import chapter9.MedianFinder;
 
 public class Main {
     public static void main(String[] args) {
-        MyStack myStack = new MyStack();
-        myStack.push(1);
-        myStack.push(2);
-        System.out.println(myStack.top());
-        System.out.println(myStack.pop());
-        myStack.empty();
+        MedianFinder medianFinder = new MedianFinder();
+        medianFinder.addNum(-1);
+        double re = medianFinder.findMedian();
+        System.out.println(re);
+        medianFinder.addNum(-2);
+        re = medianFinder.findMedian();
+        System.out.println(re);
+        medianFinder.addNum(-3);
+        re = medianFinder.findMedian();
+        System.out.println(re);
+        medianFinder.addNum(-4);
+        re = medianFinder.findMedian();
+        System.out.println(re);
+        medianFinder.addNum(-5);
+        re = medianFinder.findMedian();
+        System.out.println(re);
     }
 }
