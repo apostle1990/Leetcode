@@ -3,6 +3,7 @@ package chapter5;
 import java.util.ArrayList;
 import java.util.List;
 
+//442. 数组中重复的数据
 public class Leetcode442 {
     static public List<Integer> findDuplicates(int[] nums) {
         int len = nums.length;
