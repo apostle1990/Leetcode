@@ -13,7 +13,7 @@ public class Leetcode354 {
         Arrays.sort(envelopes, new Comparator<int[]>() {
             @Override
             public int compare(int[] envelope1, int[] envelope2) {
-                if (envelope1[0] != envelope1[0]){
+                if (envelope1[0] != envelope2[0]){
                     return envelope1[0] - envelope2[0];
                 }
                 return envelope2[1]-envelope1[1];
