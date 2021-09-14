@@ -3,10 +3,10 @@ package BinarySearch;
 public class Leetcode410 {
     public static int splitArray(int[] nums, int m) {
         int left =0,right =0;
-        for (int i=0;i < nums.length;i++){
-            right += nums[i];
-            if (left < nums[i]){
-                left = nums[i];
+        for (int num : nums) {
+            right += num;
+            if (left < num) {
+                left = num;
             }
         }
         while (left < right){
