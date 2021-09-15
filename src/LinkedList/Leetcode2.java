@@ -20,5 +20,4 @@ public class Leetcode2 {
           }
           return head.next;
     }
-
 }

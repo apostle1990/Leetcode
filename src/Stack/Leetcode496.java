@@ -5,25 +5,7 @@ import java.util.*;
 //下一个更大元素 I
 public class Leetcode496 {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
-        //暴力法
         int l1= nums1.length,l2=nums2.length;
-//        int[] re = new int[l1];
-//        for (int i=0; i<l1; i++){
-//            int curVal = nums1[i];
-//            int j =0;
-//            while (j <l2 && nums2[j] !=curVal){
-//                j++;
-//            }
-//            j++;
-//            while (j < l2 && nums2[j] <curVal){
-//                j++;
-//            }
-//            if (j==l2){
-//                re[i] = -1;
-//                continue;
-//            }
-//            re[i] = nums2[j];
-//        }
         //单调栈
         Deque<Integer> stack = new LinkedList<>();
         Map<Integer,Integer> map = new HashMap<>();

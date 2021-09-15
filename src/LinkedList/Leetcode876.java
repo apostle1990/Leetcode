@@ -10,5 +10,4 @@ public class Leetcode876 {
         }
         return ans;
     }
-
 }

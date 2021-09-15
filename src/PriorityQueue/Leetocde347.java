@@ -5,37 +5,6 @@ import java.util.HashMap;
 import java.util.PriorityQueue;
 
 public class Leetocde347 {
-    //    private static class node{
-//        private int key;
-//        private int value;
-//        public node() {}
-//        public node(int key, int value){
-//            this.key = key;
-//            this.value =value;
-//        }
-//    }
-//    public int[] topKFrequent(int[] nums, int k) {
-//        PriorityQueue<node> priorityQueue = new PriorityQueue<>((x, y) -> y.value - x.value);
-//        HashMap<Integer, Integer> hashMap = new HashMap<>();
-//        for (int i : nums){
-//            if (hashMap.containsKey(i)){
-//                hashMap.put(i, hashMap.get(i)+1);
-//            }else {
-//                hashMap.put(i, 1);
-//            }
-//        }
-//        for (int i : hashMap.keySet()){
-//            node node = new node(i, hashMap.get(i));
-//            priorityQueue.add(node);
-//        }
-//        int[] re = new int[k];
-//        int i =0;
-//        while(i <k){
-//            re[i] = priorityQueue.poll().key;
-//            i++;
-//        }
-//        return re;
-//    }
     public int[] topKFrequent(int[] nums, int k) {
         HashMap<Integer, Integer> hashMap = new HashMap<>();
         for (int i : nums){
